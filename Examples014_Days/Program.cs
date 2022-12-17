@@ -1,36 +1,36 @@
 ﻿Console.WriteLine("Введите цифру дня недели");
-int x = int.Parse(Console.ReadLine());
+int x = int.Parse(Console.ReadLine()!);
 
 if (x == 1)
 {
-    Console.Write("Понедельник");
+    Console.Write("Понедельник -  рабочий день");
 }
 
 else if (x == 2)
 {
-    Console.Write("Вторник");    
+    Console.Write("Вторник - рабочий день");    
 }
 else if (x == 3)
 {
-    Console.Write("Среда");
+    Console.Write("Среда - рабочий день");
 }
 else if (x == 4)
 {
-    Console.Write("Четверг");
+    Console.Write("Четверг - рабочий день");
 }
 else if (x == 5)
 {
-    Console.Write("Пятница");
+    Console.Write("Пятница - рабочий день");
 }
 else if (x == 6)
 {
-    Console.Write("Суббота");
+    Console.Write("Суббота- выходной");
 }
 else if (x == 7)
 {
-    Console.Write("Воскресенье");
+    Console.Write("Воскресенье - выходной");
 }
-if (x < 1 || x > 7);
+if (x < 1 || x > 7)
 {
-    Console.Write("Ввели не корректный день недели");
+    Console.Write("Вы ввели не корректный день недели");
 }
